@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client/extension";
+import { PrismaClient } from "@prisma/client"; // Corrigido: importação correta do Prisma Client
 
 declare global {
   var cachedPrisma: PrismaClient;
